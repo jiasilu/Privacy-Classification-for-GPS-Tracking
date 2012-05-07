@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">GPS Tracker</string>
+    <string name="first">Welcome</string>
+    <string name="second">Collecting Data</string>
+	<string name="mymap">Map</string>
+	<string name="ip">207.151.67.12</string>
+	<string name="port">3000</string>
+	<string name="email">justin@goodinc.com</string>
+	<string name="password">123456</string>
+</resources>

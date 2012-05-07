@@ -1,0 +1,7 @@
+Group 12: Silu Jia, Cheng Wu
+
+Project: Privacy classification for GPS Tracking
+
+Goal: Build a library that can protect user's privacy (current location information) by specify the protection level, with the help of Google Map API v3.
+
+Implementation: We are using two approach: 1.lock the zoom level of google map on the device; 2.control the precision of the latitude and longitude collected by the GPS.

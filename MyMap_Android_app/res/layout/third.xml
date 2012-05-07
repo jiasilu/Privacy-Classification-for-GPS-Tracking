@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TextView
+ 	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/thirdtitle"
+  />
+  	<RadioGroup
+  	    android:id="@+id/radio"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content" >
+  	    <RadioButton
+  	        android:id="@+id/radio1"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"
+  	        android:checked="true"/>
+  	    <RadioButton
+  	        android:id="@+id/radio2"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"/>
+  	    <RadioButton
+  	        android:id="@+id/radio3"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="wrap_content"/>
+  	</RadioGroup>
+  	  	<Button
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:text="Submit"
+	  		android:id="@+id/submit"/>
+  		<Button
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:text="Request Friend"
+	  		android:id="@+id/requestFriend"/>
+</LinearLayout>
